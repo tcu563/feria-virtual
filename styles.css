@@ -1,0 +1,67 @@
+section{
+    display: flex;
+}
+
+
+#tittle{
+    color: #47554b;
+    text-align: center;
+}
+
+.images{
+    background-image: linear-gradient(to left,#47554b, #a2c4ac);
+    padding: 10px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8%;
+}
+
+#logo{
+    align-items: center;
+    text-align: center;
+}
+
+.logo{
+    height: 90%;
+    width: 90%;
+}
+
+
+/* Pág individual empresa */
+.puesto-emp{
+    z-index: -1;
+}
+
+#nombre-emp{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    left: 35%;
+    right: 35%;
+}
+
+#myInput{
+    position: absolute;
+    top: 51%;
+    left: 54.5%;
+    height: 19%;
+    width: 16.4%;
+    background-color: rgb(77, 74, 74);
+}
+
+#myCanvas{
+    padding-left: 17.6%;
+    width: 100%;
+}
+
+#pdf{
+    position: absolute;
+    top: 74%;
+    left: 58.5%;
+    height: 4%;
+    width: 8.4%;
+    opacity: 0%;
+}
