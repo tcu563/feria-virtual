@@ -6,6 +6,7 @@ section{
 #tittle{
     color: #47554b;
     text-align: center;
+    margin-left: 10%;
 }
 
 .images{
@@ -40,13 +41,13 @@ img{
     align-items: center;
     text-align: center;
     left: 35%;
-    right: 35%;
+    right: 0%;
 }
 
 #myInput{
     position: absolute;
-    top: 51%;
-    left: 54.5%;
+    top: 54%;
+    left: 54.6%;
     height: 19%;
     width: 16.4%;
     background-color: rgb(77, 74, 74);
@@ -59,9 +60,59 @@ img{
 
 #pdf{
     position: absolute;
-    top: 74%;
+    top: 77%;
     left: 58.5%;
     height: 4%;
     width: 8.4%;
     opacity: 0%;
+}
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+    flex: 1;
+}
+
+.footer{
+    position: sticky;
+    margin-top: 3%;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(129, 192, 201),white);
+}
+
+
+.footer-img{
+    width: 10rem;
+    height: 10rem;
+}
+.footer-img-vert{
+    width: 12rem;
+    height: 6rem;
+}
+
+/*Categories Buttons*/
+
+.button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: rgb(25, 25, 25);
+    width: 15rem;
+    height: 4rem;
+    margin: 0.5rem;
+    border: 5px solid rgb(25, 25, 25);
+    border-radius: 10px;
+    font-size: 1.4rem;
+    cursor: pointer;
+
+}
+.button:hover{
+    text-decoration: none;
+    background-color: rgb(25, 25, 25);
+    color: blanchedalmond;
+    font: bold;
 }

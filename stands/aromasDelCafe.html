@@ -8,36 +8,96 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 </head>
-<body >
+<body class="Site">
     
-    <section >
-        <div class="row">
-            <div id="logo" class="col-1">
-                <a href="../index.html">
-                    <img src="../imgs/logo.png" class="logo" alt="logo" >
-                </a>
-            </div>
-            <div class="col-10">
-                <a href="../index.html">
-                    <h1 id="tittle">Feria Virtual</h1>
-                </a>                
-            </div>  
+  <section >
+    <div class="row">
+        <div id="logo" class="col-1">
+          <a href="../index.html" >
+            <img src="../imgs/logo.png" class="logo" alt="logo" >
+          </a>
         </div>
-    </section>
-
-    <div class="container" >
-        
-        <button id="myInput" type="button" data-toggle="modal" data-target="#exampleModal">
-            <canvas id="myCanvas" class="video" ></canvas>
-        </button>
-        <button id="pdf" onclick="verPDF()">Descargar</button>
-        <div class="puesto-emp">
-            <img src="../imgs/puestos/Aromas del café.png" alt="puesto_empresa" >
+        <div class="col-9">
+          <a href="../categories.html" >
+            <h1 id="tittle">Comida Artesanal</h1>
+          </a>
+        </div>
+        <div id="logo" class="col-2">
+            <a href="https://ucr.ac.cr" >
+                <img src="../imgs/logo_ucr.png" class="logo" alt="logo ucr" >
+            </a>
         </div>
     </div>
+  </section>
 
+  <section class="principal Site-content">
 
-    <!--Modal-->
+    <div class="container" >
+      
+      <button id="myInput" type="button" data-toggle="modal" data-target="#exampleModal">
+          <canvas id="myCanvas" class="video" ></canvas>
+      </button>
+      <button id="pdf" onclick="verPDF()">Descargar</button>
+      <div class="puesto-emp">
+          <img src="../imgs/puestos/Aromas del café.png" alt="puesto_empresa" >
+      </div>
+    </div>
+  
+    <nav aria-label="Navegación entre puestos">
+      <ul class="pagination justify-content-center">
+        <li class="page-item ">
+          <a class="page-link" href="./saborcitoDeMiTierra.html" tabindex="-1">Anterior Puesto</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="./elTerrunoCervanteno.html">Siguiente Puesto</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+
+  <section class="footer">
+      <div id="complete-footer" class="row">
+          <div class="col-2">
+              <a href="https://www.ucr.ac.cr/directorio/recinto-universitario-de-paraiso/" >
+                  <img src="../imgs/logo_rp.jpg" alt="Recinto Paraíso" class="footer-img">
+              </a>
+          </div>
+          <div class="col-2">
+              <a href="https://accionsocial.ucr.ac.cr/" >
+                  <img src="../imgs/logo_vas.png" alt="Vicerrectoría de acción social" class="footer-img-vert">
+              </a>
+          </div>
+          <div class="col-6"></div>
+          <div class="col-2">
+              <a href="https://www.facebook.com/TCU-563-162821603904270/" >
+                  <img src="../imgs/Logo TCU-563.jpeg" alt="TCU-563" class="logo">
+              </a>
+          </div>
+      </div>
+  </section>
+
+  </section>
+
+  <section class="footer">
+      <div id="complete-footer" class="row">
+          <div class="col-2">
+              <a href="https://www.ucr.ac.cr/directorio/recinto-universitario-de-paraiso/" >
+                  <img src="./imgs/logo_rp.jpg" alt="Recinto Paraíso" class="footer-img">
+              </a>
+          </div>
+          <div class="col-2">
+              <a href="https://accionsocial.ucr.ac.cr/" >
+                  <img src="./imgs/logo_vas.png" alt="Vicerrectoría de acción social" class="footer-img-vert">
+              </a>
+          </div>
+          <div class="col-6"></div>
+          <div class="col-2">
+              <a href="https://www.facebook.com/TCU-563-162821603904270/" >
+                  <img src="./imgs/Logo TCU-563.jpeg" alt="TCU-563" class="logo">
+              </a>
+          </div>
+      </div>
+  </section>
 
   
   <!-- Modal -->
